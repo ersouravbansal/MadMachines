@@ -1,0 +1,34 @@
+.hit-btn {
+  padding: 10px 20px;
+  background-color: #67b66a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+}
+
+.hit-btn:hover {
+  background-color: #24a12a;
+}
+
+.hit-btn.offline {
+  background-color: #FF6347;
+}
+
+.hit-btn.offline:hover {
+  background-color: #FF4500;
+}
+
+@media (min-width: 600px) {
+  .hit-btn {
+      font-size: 16px;
+      padding: 12px 24px;
+      max-width: 200px;
+  }
+}
